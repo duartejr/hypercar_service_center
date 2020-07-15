@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Next Client</title>
+</head>
+<body>
+    <div>
+        {% if ticket > 0 %}
+        Next ticket #{{ ticket }}
+        {% else %}
+        Waiting for the next client
+        {% endif %}
+    </div>
+</body>
+</html>
